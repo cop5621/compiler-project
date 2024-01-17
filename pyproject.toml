@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "compiler"
+version = "0.0.1"
+dependencies = [
+	"antlr4-python3-runtime==4.13.1",
+	"networkx",
+	"matplotlib",
+	"pygraphviz"
+]
+
+[project.scripts]
+compiler = "compiler.Compiler:main"
+while2ir = "compiler.While2IR:main"
+controlflow = "compiler.ControlFlow:main"
+optimizer = "compiler.Optimizer:main"
+peephole = "compiler.Peephole:main"
+codegen = "compiler.CodeGen:main"
+interpreter = "compiler.Interpreter:main"
+cfg2ir = "compiler.CFG2IR:main"
+graphview = "compiler.GraphView:main"

@@ -1,0 +1,10 @@
+begin
+  x := inparam;
+  fact := 1;
+  while x > 0 do
+	  begin
+      fact := fact * x;
+      x := x - 1
+	  end;
+	outparam := fact
+end

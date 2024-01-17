@@ -1,0 +1,13 @@
+begin
+a := 2;
+b := 3;
+c := a + b;
+x := b;
+y := a + b;
+a := 7;
+e := c + a;
+z := a + b;
+result1 := c;
+result2 := c + a;
+outparam := result1 + result2
+end

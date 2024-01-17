@@ -1,0 +1,7 @@
+begin
+a := 2;
+b := a + 3;
+x := b;
+y := x;
+outparam := y
+end

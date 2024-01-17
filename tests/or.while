@@ -1,0 +1,4 @@
+if false or true then
+  x := 2
+else
+  x := 3

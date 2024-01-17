@@ -1,0 +1,4 @@
+if true and true then
+  x := 2
+else
+  x := 3
