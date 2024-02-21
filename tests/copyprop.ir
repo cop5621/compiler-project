@@ -1,0 +1,7 @@
+0: x := inparam
+1: y := x
+2: _t0 := 10
+3: x := _t0
+4: _t1 := y + x
+5: z := _t1
+6: outparam := z

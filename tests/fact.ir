@@ -1,0 +1,17 @@
+0: x := inparam
+1: _t0 := 1
+2: fact := _t0
+3: _t1 := 0
+4: _t3 := _t1 - x
+5: if _t3 < 0 goto 8
+6: _t2 := 0
+7: goto 9
+8: _t2 := 1
+9: if _t2 = 0 goto 16
+10: _t4 := fact * x
+11: fact := _t4
+12: _t5 := 1
+13: _t6 := x - _t5
+14: x := _t6
+15: goto 3
+16: outparam := fact
